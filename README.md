@@ -26,4 +26,20 @@ _What a build code is:_
 
 ![](readme_images/slnfile.png)
 
-# 3. open the "compilation" drop-down menu and click on "Publish PCPartPicker1"
+# 3. Open the "compilation" drop-down menu and click on "Publish PCPartPicker1"
+
+![](readme_images/publishvs.png)
+
+# 4. Select a location for the installer files and click the Finish button.
+
+![](readme_images/installer.png)
+
+# 5. Now a folder named in base of how you named it will appear. Open the file "setup.exe" located in this folder.
+
+![](readme_images/setup.png)
+
+#6. Now you are ready to go! Search in the Windows Search "PCPartPicker1" and the application will open!
+
+# ❗ Enjoy!
+
+_-Just1diax_

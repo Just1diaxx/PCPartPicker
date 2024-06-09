@@ -12,7 +12,8 @@ _PCPartPickerApp is an unofficial app for the website https://pcpartpicker.com .
 
 _What a build code is:_
 ![](readme_images/buildcode.png)
---
+
+
 # ❓ How i can compile it?
 
 *It's very easy to compile, but let's start by dividing the explanation into points:*

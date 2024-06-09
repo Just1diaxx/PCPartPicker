@@ -24,4 +24,4 @@ _What a build code is:_
 
 # 2. Open the sln file with visual studio 2022.
 
-
+![](readme_images/slnfile.png)

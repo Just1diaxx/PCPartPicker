@@ -1,5 +1,5 @@
-# PCPartPicker
-# ![](https://pcpartpicker.com/static/forever/img/default-avatar.png)
+**PCPartPicker**
+![](https://pcpartpicker.com/static/forever/img/default-avatar.png)
 # ❓ What it is?
 
 _PCPartPickerApp is an unofficial app for the website https://pcpartpicker.com ._

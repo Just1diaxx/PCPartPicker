@@ -19,4 +19,5 @@ _What a build code is:_
 *It's very easy to compile, but let's start by dividing the explanation into points:*
 
 # 1. Download the source code from the github page.
-# ![](readme_images/githubsource.png)
+
+![](readme_images/githubsource.png)

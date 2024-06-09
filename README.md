@@ -38,7 +38,7 @@ _What a build code is:_
 
 ![](readme_images/setup.png)
 
-#6. Now you are ready to go! Search in the Windows Search "PCPartPicker1" and the application will open!
+# 6. Now you are ready to go! Search in the Windows Search "PCPartPicker1" and the application will open!
 
 # ❗ Enjoy!
 

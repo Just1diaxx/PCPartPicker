@@ -21,3 +21,7 @@ _What a build code is:_
 # 1. Download the source code from the github page.
 
 ![](readme_images/githubsource.png)
+
+# 2. Open the sln file with visual studio 2022.
+
+

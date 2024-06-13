@@ -27,6 +27,7 @@ Public Class Form1
     Public Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
         Dim client As New DiscordRpcClient("1249059443061166101") 'API KEY
+        client.Initialize()
         Dim unixtime As ULong = (Date.UtcNow - New DateTime(1970, 1, 1, 0, 0, 0)).TotalSeconds
         Dim rpctimestamps As New Timestamps
         rpctimestamps.StartUnixMilliseconds = unixtime
@@ -46,6 +47,7 @@ Public Class Form1
         rpc.Timestamps = rpctimestamps
 
         client.SetPresence(rpc)
+
 
         If My.Computer.FileSystem.DirectoryExists("C:\pcpartpicker") Then
 
@@ -92,6 +94,15 @@ Public Class Form1
     End Sub
 
     Private Sub webView_Click(sender As Object, e As EventArgs) Handles webView.Click
+
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        If Me.BackColor = Color.White Then
+            Me.BackColor = Color.Black
+        Else
+            Me.BackColor = Color.White
+        End If
 
     End Sub
 End Class

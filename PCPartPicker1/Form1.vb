@@ -63,9 +63,7 @@ Public Class Form1
 
 
 
-    Private Sub AggiornaDiscordRPC(pagina As String)
 
-    End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         For Each foundFile As String In My.Computer.FileSystem.GetFiles("C:\pcpartpicker")
@@ -93,15 +91,15 @@ Public Class Form1
         foundedBuilds2.Show()
     End Sub
 
-    Private Sub webView_Click(sender As Object, e As EventArgs) Handles webView.Click
 
-    End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         If Me.BackColor = Color.White Then
             Me.BackColor = Color.Black
+            Label1.ForeColor = Color.White
         Else
             Me.BackColor = Color.White
+            Label1.ForeColor = Color.Black
         End If
 
     End Sub

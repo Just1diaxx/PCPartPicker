@@ -3,4 +3,6 @@
         Dim bCode = InputBox("Enter the build code")
         Form1.webView.CoreWebView2.Navigate("https://pcpartpicker.com/list/" + bCode)
     End Sub
+
+
 End Class

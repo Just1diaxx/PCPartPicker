@@ -24,6 +24,10 @@ Public Class Form1
 
     End Sub
 
+    Private Sub MyForm_Resize(sender As Object, e As EventArgs) Handles MyBase.Resize
+        webView.Size = Me.Size
+    End Sub
+
     Public Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
         Dim client As New DiscordRpcClient("1249059443061166101") 'API KEY
